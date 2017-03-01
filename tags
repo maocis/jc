@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOT_NAME	jc1/settings.py	/^BOT_NAME = 'jc1'$/;"	kind:variable	line:12
+Jc1Item	jc1/items.py	/^class Jc1Item(scrapy.Item):$/;"	kind:class	line:11
+Jc1Pipeline	jc1/pipelines.py	/^class Jc1Pipeline(object):$/;"	kind:class	line:9
+Jc1SpiderMiddleware	jc1/middlewares.py	/^class Jc1SpiderMiddleware(object):$/;"	kind:class	line:11
+NEWSPIDER_MODULE	jc1/settings.py	/^NEWSPIDER_MODULE = 'jc1.spiders'$/;"	kind:variable	line:15
+ROBOTSTXT_OBEY	jc1/settings.py	/^ROBOTSTXT_OBEY = True$/;"	kind:variable	line:22
+SPIDER_MODULES	jc1/settings.py	/^SPIDER_MODULES = ['jc1.spiders']$/;"	kind:variable	line:14
+__init__.py	jc1/__init__.py	1;"	kind:file	line:1
+__init__.py	jc1/spiders/__init__.py	1;"	kind:file	line:1
+from_crawler	jc1/middlewares.py	/^    def from_crawler(cls, crawler):$/;"	kind:member	line:17
+items.py	jc1/items.py	1;"	kind:file	line:1
+middlewares.py	jc1/middlewares.py	1;"	kind:file	line:1
+pipelines.py	jc1/pipelines.py	1;"	kind:file	line:1
+process_item	jc1/pipelines.py	/^    def process_item(self, item, spider):$/;"	kind:member	line:10
+process_spider_exception	jc1/middlewares.py	/^    def process_spider_exception(response, exception, spider):$/;"	kind:member	line:38
+process_spider_input	jc1/middlewares.py	/^    def process_spider_input(response, spider):$/;"	kind:member	line:23
+process_spider_output	jc1/middlewares.py	/^    def process_spider_output(response, result, spider):$/;"	kind:member	line:30
+process_start_requests	jc1/middlewares.py	/^    def process_start_requests(start_requests, spider):$/;"	kind:member	line:46
+scrapy	jc1/items.py	/^import scrapy$/;"	kind:namespace	line:8
+settings.py	jc1/settings.py	1;"	kind:file	line:1
+signals	jc1/middlewares.py	/^from scrapy import signals$/;"	kind:namespace	line:8
+spider_opened	jc1/middlewares.py	/^    def spider_opened(self, spider):$/;"	kind:member	line:55
